@@ -49,3 +49,10 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+.funkytitle {
+    color: #003F59;
+    font-family: "Playfair Display", serif;
+}
+.col-md-7 {
+    background-color: #B2FFBE;
+}

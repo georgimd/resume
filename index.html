@@ -2,7 +2,9 @@
 <html class="h-100" lang="en">
   
   <!-- An HTML document always starts with a "head", i.e. information about the page that isn't directly visible -->
-  <head>
+  <head <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -43,7 +45,7 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/cv image.png" alt="Portrait of Firstname Lastname" width="150">
+          <img class="w-100 rounded-circle my-3" src="images/cv_image.png" alt="Portrait of Firstname Lastname" width="150">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
@@ -70,7 +72,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 class="funkytitle">Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -114,7 +116,7 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2 class="funkytitle">Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -123,7 +125,7 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
+                  <h4>Creative Business, Breda University of Applied Sciences</h4>
                   <h5>2022 –&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
@@ -139,8 +141,8 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>High School Diploma, 91.German Secondary Language School "Prof. Konstantin Galabov"</h4>
-                  <h5>2022</h5>
+                  <h4>High School Diploma, 91. German Secondary Language School "Prof. Konstantin Galabov"</h4>
+                  <h5>2017-2022</h5>
                   <ul class="biography-details list-unstyled">
                     <li>Specialisation in Chemistry and Biology&nbsp;</li>
                   </ul>
@@ -236,7 +238,7 @@
             <h2>Other Skills</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Hard working</li>
-              <li class="skill-item">Adobe Dream Suite Experience</li>
+              <li class="skill-item">Adobe DreamSuite Experience</li>
               <li class="skill-item">Driving Licence</li>
             </ul>
           </section>
