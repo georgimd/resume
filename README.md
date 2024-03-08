@@ -20,6 +20,8 @@ In order to pass the individual assessment, you must modify the following elemen
 - Add **images**: Put your portrait and the logos of the employers you've worked with and schools you've studied in
 - Publish it with **GitHub pages**: Add the link to your CV in the _README.md_ file (yes, this one). We'll be checking your work by clicking on that link, and we'll also check that it works on a mobile phone.
 - Check and **fix any errors**: there should be no broken links or images, and there must be no error when checking your CV on <https://validator.w3.org/>
+https://github.com/georgimd/PRJ4_23-24_221401_CV
+https://georgimd.github.io/PRJ4_23-24_221401_CV
 
 ## Image credits
 
